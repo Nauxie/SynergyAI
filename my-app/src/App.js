@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from './components/Hero'
+import HeroCard from './components/HeroCard'
 import './App.css';
 import hlist from './data/Heroes'
 
@@ -7,7 +7,7 @@ import hlist from './data/Heroes'
 
 
 const list = hlist.map(list => {
-  return(<Hero hero= {list} key={list.id}/>)
+  return(<HeroCard hero= {list} key={list.id}/>)
 })
 
 function App() {
