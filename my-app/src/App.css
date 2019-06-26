@@ -1,4 +1,5 @@
 body {
+  background-color:#282c34;
   margin: 0;
 }
 .App {
@@ -23,7 +24,7 @@ body {
 .child {
   float: left;
   
-  margin: 10px;
+  margin: 5px;
   font-size: 10px;
   word-wrap: break-word;
 }
@@ -38,8 +39,8 @@ body {
   border-color: black;
   margin: 10px;
   float: left;
-  width: 250px;
-  height: 275px;
+  width: 212px;
+  height: 150px;
   background-color:#282c34;
   color: aliceblue;
 
@@ -52,12 +53,19 @@ body {
 .imgstyle {
   border-radius: 10px;
   
-  margin: 0 auto;
-  width: 150px; 
+  margin: 0  auto;
+  width: 50px; 
   
 }
 img {
   border-radius: 10px;
+}
+.namecenter {
+ 
+  text-align: center;
+
+  line-height: 10px;   
+
 }
 
 

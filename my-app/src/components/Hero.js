@@ -10,14 +10,17 @@ function Hero(props) { // props = list
         
         <div className ="card">
             <div className = "imgstyle">
-            <img src={imgurl2}  alt="icon" width='150px' borderRadius='10px' vspace="10px"></img>
+            <img src={imgurl2}  alt="icon" width='50px' borderRadius='10px' vspace="10px"></img>
             </div>
-            <h4 textAlign= 'center'>{props.hero.name}</h4> 
+            <div className="namecenter">
+            <b>{props.hero.name}</b> 
+            </div>
+           
             <div className ="container">
                 <div className="inner">
                     <div className = "child">
                         
-                        <p>{props.hero.type1} + {props.hero.type2}</p>
+                        <p>{props.hero.type1} /{props.hero.type2}</p>
                         <p> HP: {props.hero.Health} </p>
 
                     </div>
