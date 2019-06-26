@@ -1,4 +1,5 @@
 {
+	id:  '0',
 	name:  'Anti-Mage',
 	type1: ' Elusive' ,
 	type2: ' Demon Hunter' ,
@@ -9,6 +10,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '1',
 	name:  'Axe',
 	type1: ' Brawny' ,
 	type2: ' Warrior' ,
@@ -19,6 +21,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '2',
 	name:  'Batrider',
 	type1: ' Troll' ,
 	type2: ' Knight' ,
@@ -29,6 +32,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '3',
 	name:  'Bloodseeker',
 	type1: ' Human' ,
 	type2: ' Assassin' ,
@@ -39,6 +43,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '4',
 	name:  'Bounty Hunter',
 	type1: ' Scrappy' ,
 	type2: ' Assassin' ,
@@ -49,6 +54,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '5',
 	name:  'Clockwerk',
 	type1: ' Scrappy' ,
 	type2: ' Inventor' ,
@@ -59,6 +65,7 @@
 	Armor: ' 5/7/9' ,
 }, 
 {
+	id:  '6',
 	name:  'Drow Ranger',
 	type1: ' Heartless' ,
 	type2: ' Hunter' ,
@@ -69,6 +76,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '7',
 	name:  'Enchantress',
 	type1: ' Savage' ,
 	type2: ' Druid' ,
@@ -79,6 +87,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '8',
 	name:  'Ogre Magi',
 	type1: ' Blood-Bound' ,
 	type2: ' Mage' ,
@@ -89,6 +98,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '9',
 	name:  'Shadow Shaman',
 	type1: ' Troll' ,
 	type2: ' Shaman' ,
@@ -99,6 +109,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '10',
 	name:  'Tinker',
 	type1: ' Scrappy' ,
 	type2: ' Inventor' ,
@@ -109,6 +120,7 @@
 	Armor: ' 10/10/10' ,
 }, 
 {
+	id:  '11',
 	name:  'Tiny',
 	type1: ' Primordial' ,
 	type2: ' Warrior' ,
@@ -119,6 +131,7 @@
 	Armor: '5/5/5' ,
 }, 
 {
+	id:  '12',
 	name:  'Tusk',
 	type1: ' Savage' ,
 	type2: ' Warrior' ,
@@ -129,6 +142,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '13',
 	name:  'Warlock',
 	type1: 'Blood-Bound' ,
 	type2: 'Warlock' ,
@@ -138,6 +152,7 @@
 	Armor: ' 0/0/0' ,
 }, 
 {
+	id:  '14',
 	name:  'Beastmaster',
 	type1: 'Brawny' ,
 	type2: 'Hunter' ,
@@ -148,6 +163,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '15',
 	name:  'Chaos Knight',
 	type1: ' Demon' ,
 	type2: ' Knight' ,
@@ -158,6 +174,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '16',
 	name:  'Crystal Maiden',
 	type1: ' Human' ,
 	type2: 'Mage' ,
@@ -168,6 +185,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '17',
 	name:  'Juggernaut',
 	type1: ' Brawny' ,
 	type2: ' Warrior' ,
@@ -178,6 +196,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '18',
 	name:  'Luna',
 	type1: ' Elusive' ,
 	type2: ' Knight' ,
@@ -187,6 +206,7 @@
 	Armor: ' 0/0/0' ,
 }, 
 {
+	id:  '19',
 	name:  'Morphling',
 	type1: 'Primordial' ,
 	type2: ' Assassin' ,
@@ -197,6 +217,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '20',
 	name:  'Nature’s Prophet',
 	type1: ' Elusive' ,
 	type2: ' Druid' ,
@@ -207,6 +228,7 @@
 	Armor: ' 0/0/0' ,
 }, 
 {
+	id:  '21',
 	name:  'Puck',
 	type1: ': Elusive' ,
 	type2: ' Dragon' ,
@@ -217,6 +239,7 @@
 	Armor: ' 3/3/3' ,
 }, 
 {
+	id:  '22',
 	name:  'Pudge',
 	type1: ' Heartless' ,
 	type2: ' Warrior' ,
@@ -226,6 +249,7 @@
 	Armor: '0/0/0' ,
 }, 
 {
+	id:  '23',
 	name:  'Queen of Pain',
 	type1: ' Demon' ,
 	type2: ' Assassin' ,
@@ -236,6 +260,7 @@
 	Armor: '0/0/0' ,
 }, 
 {
+	id:  '24',
 	name:  'Slardar',
 	type1: ' Scaled' ,
 	type2: ' Warrior' ,
@@ -246,6 +271,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '25',
 	name:  'Timbersaw',
 	type1: ' Scrappy' ,
 	type2: 'Inventor' ,
@@ -255,6 +281,7 @@
 	Armor: ' 0/0/0' ,
 }, 
 {
+	id:  '26',
 	name:  'Treant Protector',
 	type1: ' Elusive' ,
 	type2: 'Druid' ,
@@ -264,6 +291,7 @@
 	Armor: '0/0/0' ,
 }, 
 {
+	id:  '27',
 	name:  'Witch Doctor',
 	type1: ' Troll' ,
 	type2: 'Warlock' ,
@@ -274,6 +302,7 @@
 	Armor: '5/5/5' ,
 }, 
 {
+	id:  '28',
 	name:  'Abaddon',
 	type1: ' Heartless' ,
 	type2: ' Knight' ,
@@ -283,6 +312,7 @@
 	Armor: ' 0/0/0' ,
 }, 
 {
+	id:  '29',
 	name:  'Arc Warden',
 	type1: 'Primordial' ,
 	type2: ' Shaman' ,
@@ -293,6 +323,7 @@
 	Armor: '5/5/5' ,
 }, 
 {
+	id:  '30',
 	name:  'Lina',
 	type1: 'Human' ,
 	type2: 'Mage' ,
@@ -303,6 +334,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '31',
 	name:  'Lycan',
 	type1: ' Human' ,
 	type2: 'Savage' ,
@@ -313,6 +345,7 @@
 	Armor: '1/1/1' ,
 }, 
 {
+	id:  '32',
 	name:  'Omniknight',
 	type1: 'Human' ,
 	type2: ' Knight' ,
@@ -322,6 +355,7 @@
 	Armor: '0/0/0' ,
 }, 
 {
+	id:  '33',
 	name:  'Phantom Assassin',
 	type1: ' Elusive' ,
 	type2: 'Assassin' ,
@@ -332,6 +366,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '34',
 	name:  'Razor',
 	type1: ' Primordial' ,
 	type2: ' Mage' ,
@@ -342,6 +377,7 @@
 	Armor: '5/5/5' ,
 }, 
 {
+	id:  '35',
 	name:  'Sand King',
 	type1: ' Savage' ,
 	type2: ' Assassin' ,
@@ -352,6 +388,7 @@
 	Armor: ' 10/10/10' ,
 }, 
 {
+	id:  '36',
 	name:  'Shadow Fiend',
 	type1: ' Demon' ,
 	type2: 'Warlock' ,
@@ -362,6 +399,7 @@
 	Armor: '5/5/5' ,
 }, 
 {
+	id:  '37',
 	name:  'Slark',
 	type1: ' Scaled' ,
 	type2: 'Assassin' ,
@@ -372,6 +410,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '38',
 	name:  'Sniper',
 	type1: ' Deadeye' ,
 	type2: 'Hunter' ,
@@ -382,6 +421,7 @@
 	Armor: '5/5/5' ,
 }, 
 {
+	id:  '39',
 	name:  'Terrorblade',
 	type1: ' Demon' ,
 	type2: ' Demon Hunter' ,
@@ -392,6 +432,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '40',
 	name:  'Venomancer',
 	type1: ' Savage' ,
 	type2: 'Warlock' ,
@@ -402,6 +443,7 @@
 	Armor: ' 0/0/0' ,
 }, 
 {
+	id:  '41',
 	name:  'Viper',
 	type1: ' Dragon' ,
 	type2: 'Assassin' ,
@@ -412,6 +454,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '42',
 	name:  'Wind Ranger',
 	type1: ' Elusive' ,
 	type2: ' Hunter' ,
@@ -422,6 +465,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '43',
 	name:  'Alchemist',
 	type1: ' Scrappy' ,
 	type2: ' Warlock' ,
@@ -431,6 +475,7 @@
 	Armor: '1/2/4' ,
 }, 
 {
+	id:  '44',
 	name:  'Disruptor',
 	type1: 'Brawny' ,
 	type2: ' Shaman' ,
@@ -441,6 +486,7 @@
 	Armor: '5/5/5' ,
 }, 
 {
+	id:  '45',
 	name:  'Doom',
 	type1: ' Demon' ,
 	type2: 'Warrior' ,
@@ -450,6 +496,7 @@
 	Armor: ' 0/0/0' ,
 }, 
 {
+	id:  '46',
 	name:  'Dragon Knight',
 	type1: ' Human' ,
 	type2: ' Dragon' ,
@@ -460,6 +507,7 @@
 	Armor: '1/1/1' ,
 }, 
 {
+	id:  '47',
 	name:  'Keeper of the Light',
 	type1: 'Human' ,
 	type2: ' Mage' ,
@@ -469,6 +517,7 @@
 	Armor: '0/0/0' ,
 }, 
 {
+	id:  '48',
 	name:  'Kunkka',
 	type1: 'Human' ,
 	type2: ' Warrior' ,
@@ -478,6 +527,7 @@
 	Armor: '0/0/0' ,
 }, 
 {
+	id:  '49',
 	name:  'Lone Druid',
 	type1: 'Savage' ,
 	type2: ' Druid' ,
@@ -488,6 +538,7 @@
 	Armor: '0/0/0' ,
 }, 
 {
+	id:  '50',
 	name:  'Medusa',
 	type1: ' Scaled' ,
 	type2: 'Hunter' ,
@@ -497,6 +548,7 @@
 	Armor: ' 0/0/0' ,
 }, 
 {
+	id:  '51',
 	name:  'Mirana',
 	type1: ' Elusive' ,
 	type2: ' Hunter' ,
@@ -506,6 +558,7 @@
 	Armor: ' 0/0/0' ,
 }, 
 {
+	id:  '52',
 	name:  'Necrophos',
 	type1: 'Heartless' ,
 	type2: ' Warlock' ,
@@ -515,6 +568,7 @@
 	Armor: '0/0/0' ,
 }, 
 {
+	id:  '53',
 	name:  'Templar Assassin',
 	type1: ' Elusive' ,
 	type2: ' Assassin' ,
@@ -525,6 +579,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '54',
 	name:  'Troll Warlord',
 	type1: ' Troll' ,
 	type2: ' Warrior' ,
@@ -535,6 +590,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '55',
 	name:  'Enigma',
 	type1: 'Primordial' ,
 	type2: 'Warlock' ,
@@ -544,6 +600,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '56',
 	name:  'Gyrocopter',
 	type1: ' Deadeye' ,
 	type2: 'Inventor' ,
@@ -554,6 +611,7 @@
 	Armor: ' 15/15/15' ,
 }, 
 {
+	id:  '57',
 	name:  'Lich',
 	type1: 'Heartless' ,
 	type2: 'Mage' ,
@@ -564,6 +622,7 @@
 	Armor: '5/5/5' ,
 }, 
 {
+	id:  '58',
 	name:  'Techies',
 	type1: ' Scrappy' ,
 	type2: ' Inventor' ,
@@ -573,6 +632,7 @@
 	Armor: ' 5/5/5' ,
 }, 
 {
+	id:  '59',
 	name:  'Tidehunter',
 	type1: 'Scaled' ,
 	type2: 'Hunter' ,
