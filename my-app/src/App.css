@@ -1,10 +1,69 @@
+body {
+  margin: 0;
+}
 .App {
   text-align: center;
-}
-
-.hero {
   
 }
+.page {
+  background-color: #282c34;
+}
+
+.container {
+  
+  overflow: hidden;
+  width: 200px;
+}
+
+.inner {
+  overflow: hidden;
+  width: 2000px;
+}
+
+.child {
+  float: left;
+  
+  margin: 10px;
+  font-size: 10px;
+  word-wrap: break-word;
+}
+
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.8s;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  margin: 10px;
+  float: left;
+  width: 250px;
+  height: 275px;
+  background-color:#282c34;
+  color: aliceblue;
+
+  
+}
+.card:hover {
+  background-color:#5b85da
+  
+}
+.imgstyle {
+  border-radius: 10px;
+  
+  margin: 0 auto;
+  width: 150px; 
+  
+}
+img {
+  border-radius: 10px;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -13,14 +72,16 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ 
+  
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
+  
 }
 
 .App-link {
