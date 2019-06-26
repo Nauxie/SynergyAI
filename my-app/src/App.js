@@ -1,12 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
+import Hero from './components/Hero'
 import './App.css';
+import hlist from './data/Heroes'
+
+
+
+
+const list = hlist.map(list => {
+  return(<Hero hero= {list}/>)
+})
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>hi</h1>
+        
+        {list}
       </header>
     </div>
   );
