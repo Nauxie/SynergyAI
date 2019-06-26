@@ -7,13 +7,13 @@ import hlist from './data/Heroes'
 
 
 const list = hlist.map(list => {
-  return(<Hero hero= {list}/>)
+  return(<Hero hero= {list} key={list.id}/>)
 })
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="page">
+      <header>
         
         {list}
       </header>
