@@ -34,7 +34,7 @@ body {
 }
 
 
-.imgstyle {
+  .imgstyle {
   border-radius: 10px;
   
   margin: 0  auto;
@@ -132,5 +132,32 @@ img {
   border-radius: 4px;
 }
 
+.scene2 {
+  width: 200px;
+  height: 260px;
+  perspective: 600px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.8s;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  margin: 3px;
+  float: left;
+  width: 50px;
+  height: 28px;
+  background-color:rgb(35, 35, 61);
+  color: aliceblue;
+
+}
+.imgstyle2 {
+  border-radius: 10px;
+  margin: 0  auto;
+  width: 500px;
+   
+  
+}
+.scene2:hover {
+  background-color:#5b85da;
+}
 
 

@@ -1,7 +1,11 @@
 import React from 'react';
 import HeroCard from './components/HeroCard'
-import './App.css';
 import hlist from './data/Heroes'
+
+import Shop from './components/Shop'
+
+import './App.css';
+
 class App extends React.Component {
   constructor(props) {
     super(props)
@@ -31,6 +35,7 @@ class App extends React.Component {
             <input type="text" placeholder="Search..." value={this.state.search} onChange={this.updateSearch.bind(this)} />
           </div>
         </div>
+        <Shop/>
         {list}
       </div>
     )
