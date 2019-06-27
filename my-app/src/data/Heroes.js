@@ -8,6 +8,7 @@ const HeroList = [
 		DPS: ' 42/83/167' ,
 		Attack_Range: ' 1/1/1' ,
 		Armor: ' 5/5/5' ,
+		truename: 'antimage',
 	}, 
 	{
 		id:  '1',
@@ -18,6 +19,7 @@ const HeroList = [
 		DPS: ' 35/70/140' ,
 		Attack_Range: ' 1/1/1' ,
 		Armor: ' 5/5/5' ,
+		truename: 'axe'
 	}, 
 	{
 		id:  '2',
@@ -28,6 +30,7 @@ const HeroList = [
 		DPS: ' 37/73/146' ,
 		Attack_Range: ' 3/3/3' ,
 		Armor: ' 5/5/5' ,
+		truename: 'batrider'
 	}, 
 	{
 		id:  '3',
@@ -38,6 +41,7 @@ const HeroList = [
 		DPS: ' 29/65/103' ,
 		Attack_Range: ' 1/1/1' ,
 		Armor: ' 5/5/5' ,
+		truename: 'bloodseeker'
 	}, 
 	{
 		id:  '4',
@@ -48,6 +52,7 @@ const HeroList = [
 		DPS: ' 52/105/210' ,
 		Attack_Range: ' 1/1/1' ,
 		Armor: ' 5/5/5' ,
+		truename: 'bounty_hunter'
 	}, 
 	{
 		id:  '5',
@@ -58,6 +63,7 @@ const HeroList = [
 		DPS: ' 36/71/143' ,
 		Attack_Range: ' 1/1/1' ,
 		Armor: ' 5/7/9' ,
+		truename: 'rattletrap'
 	}, 
 	{
 		id:  '6',
@@ -68,6 +74,7 @@ const HeroList = [
 		DPS: ' 37/73/146' ,
 		Attack_Range: ' 4/4/4' ,
 		Armor: ' 5/5/5' ,
+		truename: 'drow_ranger'
 	}, 
 	{
 		id:  '7',
@@ -78,6 +85,7 @@ const HeroList = [
 		DPS: ' 43/80/153' ,
 		Attack_Range: ' 2/2/2' ,
 		Armor: ' 5/5/5' ,
+		truename: 'enchantress'
 	}, 
 	{
 		id:  '8',
@@ -88,6 +96,7 @@ const HeroList = [
 		DPS: ' 43/86/171' ,
 		Attack_Range: ' 1/1/1' ,
 		Armor: ' 5/5/5' ,
+		truename: 'ogre_magi'
 	}, 
 	{
 		id:  '9',
@@ -98,6 +107,7 @@ const HeroList = [
 		DPS: '28/56/112' ,
 		Attack_Range: ' 3/3/3' ,
 		Armor: ' 5/5/5' ,
+		truename: 'shadow_shaman'
 	}, 
 	{
 		id:  '10',
@@ -108,6 +118,7 @@ const HeroList = [
 		DPS: ' 30/60/120' ,
 		Attack_Range: ' 4/4/4' ,
 		Armor: ' 10/10/10' ,
+		truename: 'tinker'
 	}, 
 	{
 		id:  '11',
@@ -118,6 +129,7 @@ const HeroList = [
 		DPS: ' 42/84/168' ,
 		Attack_Range: ' 1/1/1' ,
 		Armor: '5/5/5' ,
+		truename: 'tiny'
 	}, 
 	{
 		id:  '12',
@@ -128,6 +140,7 @@ const HeroList = [
 		DPS: ' 44/88/175' ,
 		Attack_Range: ' 1/1/1' ,
 		Armor: ' 5/5/5' ,
+		truename: 'tusk'
 	}, 
 	{
 		id:  '13',
@@ -138,6 +151,7 @@ const HeroList = [
 		DPS: ' 29/59/112' ,
 		Attack_Range: ' 4/4/4' ,
 		Armor: '0/0/0' ,
+		truename: 'warlock'
 	}, 
 	{
 		id:  '14',
@@ -148,6 +162,7 @@ const HeroList = [
 		DPS: ' 59/118/236' ,
 		Attack_Range: ' 1/1/1' ,
 		Armor: ' 5/5/5' ,
+		truename: 'beastmaster'
 	}, 
 	{
 		id:  '15',
@@ -158,6 +173,7 @@ const HeroList = [
 		DPS: ' 58/115/231' ,
 		Attack_Range: ' 1/1/1' ,
 		Armor: ' 5/5/5' ,
+		truename: 'chaos_knight'
 	}, 
 	{
 		id:  '16',
@@ -168,6 +184,7 @@ const HeroList = [
 		DPS: ' 25/50/100' ,
 		Attack_Range: ' 4/4/4' ,
 		Armor: ' 5/5/5' ,
+		truename: 'crystal_maiden'
 	}, 
 	{
 		id:  '17',
@@ -178,6 +195,7 @@ const HeroList = [
 		DPS: '61/123/245' ,
 		Attack_Range: '1/1/1' ,
 		Armor: ' 5/5/5' ,
+		truename: 'juggernaut'
 	}, 
 	{
 		id:  '18',
@@ -188,6 +206,7 @@ const HeroList = [
 		DPS: ' 42/85/169' ,
 		Attack_Range: '3/3/3' ,
 		Armor: '5/5/5' ,
+		truename: 'luna'
 	}, 
 	{
 		id:  '19',
@@ -198,6 +217,7 @@ const HeroList = [
 		DPS: ' 40/81/162' ,
 		Attack_Range: ' 3/3/3' ,
 		Armor: ' 5/5/5' ,
+		truename: 'morphling'
 	}, 
 	{
 		id:  '20',
@@ -208,6 +228,7 @@ const HeroList = [
 		DPS: ' 34/68/136' ,
 		Attack_Range: ' 3/3/3' ,
 		Armor: ' 0/0/0' ,
+		truename: 'furion'
 	}, 
 	{
 		id:  '21',
@@ -219,6 +240,7 @@ const HeroList = [
 		DPS: ' 26/53/106' ,
 		Attack_Range: ' 3/3/3' ,
 		Armor: ' 5/5/5' ,
+		truename: 'puck'
 	}, 
 	{
 		id:  '22',
@@ -229,6 +251,7 @@ const HeroList = [
 		DPS: ' 29/59/88' ,
 		Attack_Range: ' 1/1/1' ,
 		Armor: ' 5/5/5' ,
+		truename: 'pudge'
 	}, 
 	{
 		id:  '23',
@@ -239,6 +262,7 @@ const HeroList = [
 		DPS: '48/96/192' ,
 		Attack_Range: ' 3/3/3' ,
 		Armor: '0/0/0' ,
+		truename: 'queenofpain'
 	}, 
 	{
 		id:  '24',
@@ -249,6 +273,7 @@ const HeroList = [
 		DPS: ' 71/142/283' ,
 		Attack_Range: ' 1/1/1' ,
 		Armor: ' 5/5/5' ,
+		truename: 'slardar'
 	}, 
 	{
 		id:  '25',
@@ -259,6 +284,7 @@ const HeroList = [
 		DPS: ' 41/82/164' ,
 		Attack_Range: ' 1/1/1' ,
 		Armor: ' 6/8/10' ,
+		truename: 'shredder'
 	}, 
 	{
 		id:  '26',
@@ -269,6 +295,7 @@ const HeroList = [
 		DPS: ' 38/75/150' ,
 		Attack_Range: ' 1/1/1' ,
 		Armor: '5/5/5' ,
+		truename: 'treant'
 	}, 
 	{
 		id:  '27',
@@ -279,6 +306,7 @@ const HeroList = [
 		DPS: '32/64/129' ,
 		Attack_Range: '3/3/3' ,
 		Armor: '5/5/5' ,
+		truename: 'witch_doctor'
 	}, 
 	{
 		id:  '28',
@@ -289,6 +317,7 @@ const HeroList = [
 		DPS: '38/77/154' ,
 		Attack_Range: ' 1/1/1' ,
 		Armor: ' 10/10/10' ,
+		truename: 'abaddon'
 	}, 
 	{
 		id:  '29',
@@ -299,6 +328,7 @@ const HeroList = [
 		DPS: '47/94/159' ,
 		Attack_Range: ' 4/4/4' ,
 		Armor: '5/5/5' ,
+		truename: 'arc_warden'
 	}, 
 	{
 		id:  '30',
@@ -309,6 +339,7 @@ const HeroList = [
 		DPS: '33/66/131' ,
 		Attack_Range: ' 4/4/4' ,
 		Armor: ' 5/5/5' ,
+		truename: 'lina'
 	}, 
 	{
 		id:  '31',
@@ -320,6 +351,7 @@ const HeroList = [
 		DPS: ' 50/100/200' ,
 		Attack_Range: '1/1/1' ,
 		Armor: ' 5/5/5' ,
+		truename: 'lycan'
 	}, 
 	{
 		id:  '32',
@@ -330,6 +362,7 @@ const HeroList = [
 		DPS: '39/79/157' ,
 		Attack_Range: ' 1/1/1' ,
 		Armor: '10/10/10' ,
+		truename: 'omniknight'
 	}, 
 	{
 		id:  '33',
@@ -340,6 +373,7 @@ const HeroList = [
 		DPS: ' 67/133/267' ,
 		Attack_Range: ' 1/1/1' ,
 		Armor: ' 5/5/5' ,
+		truename: 'phantom_assassin'
 	}, 
 	{
 		id:  '34',
@@ -350,6 +384,7 @@ const HeroList = [
 		DPS: '50/100/200' ,
 		Attack_Range: '3/3/3' ,
 		Armor: '5/5/5' ,
+		truename: 'razor'
 	}, 
 	{
 		id:  '35',
@@ -360,6 +395,7 @@ const HeroList = [
 		DPS: '38/75/150' ,
 		Attack_Range: ' 1/1/1' ,
 		Armor: ' 10/10/10' ,
+		truename: 'sand_king'
 	}, 
 	{
 		id:  '36',
@@ -370,6 +406,7 @@ const HeroList = [
 		DPS: ' 68/136/273' ,
 		Attack_Range: '4/4/4' ,
 		Armor: '5/5/5' ,
+		truename: 'nevermore'
 	}, 
 	{
 		id:  '37',
@@ -380,6 +417,7 @@ const HeroList = [
 		DPS: '55/102/208' ,
 		Attack_Range: '1/1/1' ,
 		Armor: ' 5/5/5' ,
+		truename: 'slark'
 	}, 
 	{
 		id:  '38',
@@ -390,6 +428,7 @@ const HeroList = [
 		DPS: '86/122/216' ,
 		Attack_Range: ' 7/7/7' ,
 		Armor: '5/5/5' ,
+		truename: 'sniper'
 	}, 
 	{
 		id:  '39',
@@ -400,6 +439,7 @@ const HeroList = [
 		DPS: '39/79/157' ,
 		Attack_Range: ' 1/1/1' ,
 		Armor: ' 5/5/5' ,
+		truename: 'terrorblade'
 	}, 
 	{
 		id:  '40',
@@ -410,6 +450,7 @@ const HeroList = [
 		DPS: ' 46/92/183' ,
 		Attack_Range: ' 3/3/3' ,
 		Armor: ' 0/0/0' ,
+		truename: 'venomancer'
 	}, 
 	{
 		id:  '41',
@@ -420,6 +461,7 @@ const HeroList = [
 		DPS: '55/110/195' ,
 		Attack_Range: ' 3/3/3' ,
 		Armor: ' 5/5/5' ,
+		truename: 'viper'
 	}, 
 	{
 		id:  '42',
@@ -430,6 +472,7 @@ const HeroList = [
 		DPS: ' 69/139/278' ,
 		Attack_Range: ' 4/4/4' ,
 		Armor: ' 5/5/5' ,
+		truename: 'windrunner'
 	}, 
 	{
 		id:  '43',
@@ -440,6 +483,7 @@ const HeroList = [
 		DPS: ' 60/120/240' ,
 		Attack_Range: '1/1/1' ,
 		Armor: ' 5/5/5' ,
+		truename: 'alchemist'
 	}, 
 	{
 		id:  '44',
@@ -450,6 +494,7 @@ const HeroList = [
 		DPS: '32/63/127' ,
 		Attack_Range: ' 4/4/4' ,
 		Armor: '5/5/5' ,
+		truename: 'disruptor'
 	}, 
 	{
 		id:  '45',
@@ -460,6 +505,7 @@ const HeroList = [
 		DPS: ' 88/177/354' ,
 		Attack_Range: ' 1/1/1' ,
 		Armor: ' 5/5/5' ,
+		truename: 'doom_bringer'
 	}, 
 	{
 		id:  '46',
@@ -471,6 +517,7 @@ const HeroList = [
 		DPS: '46/92/183' ,
 		Attack_Range: '1/1/1' ,
 		Armor: '10/10/10' ,
+		truename: 'dragon_knight'
 	}, 
 	{
 		id:  '47',
@@ -481,6 +528,7 @@ const HeroList = [
 		DPS: '25/50/100' ,
 		Attack_Range: ' 4/4/4' ,
 		Armor: '5/5/5' ,
+		truename: 'keeper_of_the_light'
 	}, 
 	{
 		id:  '48',
@@ -491,6 +539,7 @@ const HeroList = [
 		DPS: '59/118/236' ,
 		Attack_Range: '1/1/1' ,
 		Armor: '10/10/10' ,
+		truename: 'kunkka'
 	}, 
 	{
 		id:  '49',
@@ -501,6 +550,7 @@ const HeroList = [
 		DPS: ' 42/85/169' ,
 		Attack_Range: '3/3/3' ,
 		Armor: '0/0/0' ,
+		truename: 'lone_druid'
 	}, 
 	{
 		id:  '50',
@@ -511,6 +561,7 @@ const HeroList = [
 		DPS: '55/110/220' ,
 		Attack_Range: ' 4/4/4' ,
 		Armor: '5/5/5' ,
+		truename: 'medusa'
 	}, 
 	{
 		id:  '51',
@@ -521,6 +572,7 @@ const HeroList = [
 		DPS: '60/120/240' ,
 		Attack_Range: ' 4/4/4' ,
 		Armor: ' 5/5/5' ,
+		truename: 'mirana'
 	}, 
 	{
 		id:  '52',
@@ -531,6 +583,7 @@ const HeroList = [
 		DPS: ' 46/92/183' ,
 		Attack_Range: '3/3/3' ,
 		Armor: ' 5/5/5' ,
+		truename: 'necrolyte'
 	}, 
 	{
 		id:  '53',
@@ -541,6 +594,7 @@ const HeroList = [
 		DPS: ' 83/167/333' ,
 		Attack_Range: ' 3/3/3' ,
 		Armor: ' 5/5/5' ,
+		truename: 'templar_assassin'
 	}, 
 	{
 		id:  '54',
@@ -551,6 +605,7 @@ const HeroList = [
 		DPS: '86/173/345' ,
 		Attack_Range: ' 3/3/3' ,
 		Armor: ' 5/5/5' ,
+		truename: 'troll_warlord'
 	}, 
 	{
 		id:  '55',
@@ -561,6 +616,7 @@ const HeroList = [
 		DPS: ' 33/67/133' ,
 		Attack_Range: ' 3/3/3' ,
 		Armor: ' 5/5/5' ,
+		truename: 'enigma'
 	}, 
 	{
 		id:  '56',
@@ -571,6 +627,7 @@ const HeroList = [
 		DPS: ' 86/172/344' ,
 		Attack_Range: ' 6/6/6' ,
 		Armor: ' 15/15/15' ,
+		truename: 'gyrocopter'
 	}, 
 	{
 		id:  '57',
@@ -581,6 +638,7 @@ const HeroList = [
 		DPS: '28/57/133' ,
 		Attack_Range: ' 3/3/3' ,
 		Armor: '5/5/5' ,
+		truename: 'lich'
 	}, 
 	{
 		id:  '58',
@@ -591,6 +649,7 @@ const HeroList = [
 		DPS: ' 33/67/133' ,
 		Attack_Range: ' 4/4/4' ,
 		Armor: ' 10/10/10' ,
+		truename: 'techies'
 	}, 
 	{
 		id:  '59',
@@ -601,6 +660,7 @@ const HeroList = [
 		DPS: '25/50/100' ,
 		Attack_Range: ' 1/1/1' ,
 		Armor: ' 5/5/5' ,
+		truename: 'tidehunter'
 	}, 
 	
 ]

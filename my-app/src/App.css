@@ -1,6 +1,5 @@
 body {
   background-color:#282c34;
-  margin: 0;
 }
 .App {
   text-align: center;
@@ -17,12 +16,17 @@ body {
 }
 
 .inner {
-  overflow: hidden;
-  width: 2000px;
+  
+  width: 150px;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 10px; 
+  
 }
 
 .child {
-  float: left;
+  float: center;
   
   margin: 5px;
   font-size: 10px;
@@ -30,31 +34,11 @@ body {
 }
 
 
-.card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.8s;
-  border-radius: 5px;
-  border-style: solid;
-  border-color: black;
-  margin: 10px;
-  float: left;
-  width: 212px;
-  height: 150px;
-  background-color:#282c34;
-  color: aliceblue;
-
-  
-}
-.card:hover {
-  background-color:#5b85da
-  
-}
-.imgstyle {
+  .imgstyle {
   border-radius: 10px;
   
   margin: 0  auto;
-  width: 50px; 
+  width: 110px; 
   
 }
 img {
@@ -92,15 +76,88 @@ img {
   
 }
 
-.App-link {
-  color: #61dafb;
+.scene {
+  width: 200px;
+  height: 260px;
+  perspective: 600px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.8s;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  margin: 10px;
+  float: left;
+  width: 150px;
+  height: 110px;
+  background-color:rgb(35, 35, 61);
+  color: aliceblue;
+  
+}
+.scene:hover {
+  background-color:#5b85da;
+}
+.card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+.card__face {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+}
+.card__face--front {
+  background-color: transparent;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card__face--back {
+  background-color: #5b85da;
+  border-radius: 4px;
+  
+  transform: rotateY( 180deg );
 }
+.card.is-flipped {
+  transform: rotateY(180deg);
+}
+.searchbar input[type=text] {
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.scene2 {
+  width: 200px;
+  height: 260px;
+  perspective: 600px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.8s;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  margin: 3px;
+  float: left;
+  width: 50px;
+  height: 28px;
+  background-color:rgb(35, 35, 61);
+  color: aliceblue;
+
+}
+.imgstyle2 {
+  border-radius: 10px;
+  margin: 0  auto;
+  width: 500px;
+   
+  
+}
+.scene2:hover {
+  background-color:#5b85da;
+}
+
+
