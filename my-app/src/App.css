@@ -142,13 +142,17 @@ img {
   border-style: solid;
   border-color: black;
   margin: 3px;
+  
   float: left;
   width: 50px;
   height: 28px;
   background-color:rgb(35, 35, 61);
   color: aliceblue;
+  
 
 }
+
+
 .imgstyle2 {
   border-radius: 10px;
   margin: 0  auto;
@@ -160,4 +164,22 @@ img {
   background-color:#5b85da;
 }
 
+.shoplist {
+ position: relative;
+
+ 
+  
+  
+}
+
+.container2 {
+  position: absolute;
+  top: 200px;
+  float: left;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  margin-bottom: 1px;
+  transition: 0.5s;
+}
 
