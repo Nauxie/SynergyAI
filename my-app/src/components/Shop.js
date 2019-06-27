@@ -17,10 +17,7 @@ class Shop extends React.Component {
         //this.state.benchnames.push(a)
         //console.log(this.state.benchnames)
         //this.state.benchObjs.push(hlist.find((obj) => obj.name === a))
-
-
         if (b) {
-
             var removed = this.state.benchObjs.filter(item => item !== hlist.find((obj) => obj.name === a))
             this.setState({
                 benchObjs: removed,
@@ -39,7 +36,6 @@ class Shop extends React.Component {
 
         }
 
-
         //console.log(this.state.benchObjs)
     }
     updateSearch(event) {
@@ -54,7 +50,6 @@ class Shop extends React.Component {
             (<HeroMiniCard hero={list} key={list.id} test={this.test} benchStat={false} />)
         )
         //find the object in hlist that matches the elements in this.state.benchnames and push it to an array with that object
-
         const benchlist = this.state.benchObjs.map(list =>
             (<HeroMiniCard hero={list} key={list.id} test={this.test} benchStat={true} />)
         )
@@ -62,25 +57,15 @@ class Shop extends React.Component {
             <div>
                 <input type="text" placeholder="Search..." value={this.state.search} onChange={this.updateSearch} />
                 <div className="shoplist">
-
                     {flist}
-
                     <div className="container2">
                         <div className="bench">
                             {benchlist}
                         </div>
-
                     </div>
-
                 </div>
-
-
-
             </div>
-
-
         )
     }
 }
-
 export default Shop

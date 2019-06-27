@@ -31,24 +31,17 @@ class App extends React.Component {
           <a href="https://underlords.com/">
             <img src="https://cdn-www.bluestacks.com/bs-images/Logo508.png" alt="logo" width="250px" />
           </a>
-          
         </div>
         <div>
-        <Shop />
-      
-
+          <Shop />
         </div>
-        
-        <br />
         <div>
-        {/*-- <div className="searchbar">
+          {/*-- <div className="searchbar">
             <input type="text" placeholder="Search..." value={this.state.search} onChange={this.updateSearch.bind(this)} />
           </div>  
     */}
-          
-
         </div>
-
+    {list}
       </div>
     )
   }
