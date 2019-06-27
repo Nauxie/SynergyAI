@@ -38,7 +38,7 @@ body {
   border-radius: 10px;
   
   margin: 0  auto;
-  width: 90px; 
+  width: 110px; 
   
 }
 img {
@@ -121,10 +121,14 @@ img {
 .card.is-flipped {
   transform: rotateY(180deg);
 }
-
-.testA {
-background-color: green;
+.searchbar input[type=text] {
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 14px;
+  border-radius: 4px;
 }
-.testB {
-  background-color: brown;
-  }
+
+
+

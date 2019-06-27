@@ -47,7 +47,7 @@ class HeroCard extends React.Component {
                 <div className={this.state.class} onClick={this.toggleClass}>
                     <div className = "card__face card__face--front">
                         <div className="imgstyle">
-                            <img src={imgurl2} alt="icon" width='90px'  vspace="10px"></img>
+                            <img src={imgurl2} alt="icon" width='110px'  vspace="10px"></img>
                         </div>
                         <div className="namecenter">
                             <b>{this.props.hero.name}</b>

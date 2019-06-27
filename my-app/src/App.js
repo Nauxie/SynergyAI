@@ -6,25 +6,55 @@ import hlist from './data/Heroes'
 
 
 
-const list = hlist.map(list => {
-  return(<HeroCard hero= {list} key={list.id}/>)
-})
 
-function App() {
-  return (
-    <div className="page">
-      <div className="namecenter">
-        <a href="https://underlords.com/">
-        <img src="https://cdn-www.bluestacks.com/bs-images/Logo508.png" alt="logo" width="250px"/>
-        </a>
-        
-      </div>
-      <header>
-        
+
+
+class App extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      search: ''
+    }
+
+
+  }
+  updateSearch(event) {
+    this.setState({ search: event.target.value });
+  }
+
+  render() {
+
+    let filteredhlist = hlist.filter(
+      (hero) => {
+        return hero.name.toLowerCase().includes(this.state.search.toLowerCase())
+      }
+    )
+    const list = filteredhlist.map(list => {
+      return (<HeroCard hero={list} key={list.id} />)
+    })
+
+
+
+
+    return (
+      <div className="page">
+        <div className="namecenter">
+          <a href="https://underlords.com/">
+
+            <img src="https://cdn-www.bluestacks.com/bs-images/Logo508.png" alt="logo" width="250px" />
+          </a>
+          <div className="searchbar">
+            <input type="text" placeholder="Search..." value={this.state.search} onChange={this.updateSearch.bind(this)} />
+          </div>
+        </div>
+
         {list}
-      </header>
-    </div>
-  );
+
+      </div>
+    )
+
+  }
+
 }
 
 export default App;
