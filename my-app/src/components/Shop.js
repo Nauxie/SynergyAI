@@ -18,7 +18,15 @@ class Shop extends React.Component {
         //console.log(this.state.benchnames)
         //this.state.benchObjs.push(hlist.find((obj) => obj.name === a))
         if (b) {
-            var removed = this.state.benchObjs.filter(item => item !== hlist.find((obj) => obj.name === a))
+            //var removed = this.state.benchObjs.filter(item => item !== hlist.find((obj) => obj.name === a))
+            var removed = this.state.benchObjs
+            for ( var i = 0; i < removed.length; i++) {
+                if (removed[i].name === a) {
+                    removed.splice(i,1)
+                    break
+
+                }
+            }
             this.setState({
                 benchObjs: removed,
             })
