@@ -7,7 +7,7 @@ import tensorflow as tf
 from functools import partial
 import itertools
 
-fr = open('C:/users/mnj/Downloads/under.html', 'r', encoding='utf8').read()
+fr = open('..\under.html', 'r', encoding='utf8').read()
 soup = BeautifulSoup(fr, "html.parser")
 
 
@@ -68,7 +68,7 @@ info = {}
 tags = soup('u')
 i = 0
 for tag in tags:
-    if str(tag)[3:-4] == 'Puck' or str(tag)[3:-4] == 'Dragon Knight' or str(tag)[3:-4] == 'Lycan':
+    if str(tag)[3:-4] == 'Puck' or str(tag)[3:-4] == 'Dragon Knight' or str(tag)[3:-4] == 'Lycan': # for heroes w THREE synergies
         info[str(tag)[3:-4]] = collection[i:i+8]
         i += 8
     else: 

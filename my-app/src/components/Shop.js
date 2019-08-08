@@ -7,71 +7,129 @@ class Shop extends React.Component {
         super(props)
         this.test = this.test.bind(this)
         this.updateSearch = this.updateSearch.bind(this)
+        this.clear = this.clear.bind(this)
+
         this.state = {
             search: '',
-            //benchnames: [],
-            benchObjs: [],
+            shopObjs: [],
+
         }
+
     }
-    test(a, b) {
+    test(a, b, c) { //test(antimage,true)
         //this.state.benchnames.push(a)
         //console.log(this.state.benchnames)
         //this.state.benchObjs.push(hlist.find((obj) => obj.name === a))
         if (b) {
             //var removed = this.state.benchObjs.filter(item => item !== hlist.find((obj) => obj.name === a))
-            var removed = this.state.benchObjs
-            for ( var i = 0; i < removed.length; i++) {
+            var removed = this.state.shopObjs
+            for (var i = c; i < removed.length; i++) {
                 if (removed[i].name === a) {
-                    removed.splice(i,1)
-                    break
 
+                    removed.splice(i, 1)
+                    break
                 }
             }
             this.setState({
-                benchObjs: removed,
+                shopObjs: removed,
             })
         }
         else {
-            if (this.state.benchObjs.length === 8) {
-                alert("Max of eight heroes in the bench!")
+            if (this.state.shopObjs.length === 5) {
+                
+                alert("Max of five heroes in the shop!")
             }
             else {
-                var joined = this.state.benchObjs.concat(hlist.find((obj) => obj.name === a))
+                var joined = this.state.shopObjs.concat(hlist.find((obj) => obj.name === a))
                 this.setState({
-                    benchObjs: joined,
+                    shopObjs: joined,
                 })
             }
 
         }
 
-        //console.log(this.state.benchObjs)
     }
     updateSearch(event) {
-        this.setState({ search: event.target.value });
+        this.setState({ search: event.target.value })
     }
+    clear() {
+        this.setState(
+            {
+                shopObjs: []
+            }
+        )
+
+    }
+    clearButton() {
+        if (this.state.shopObjs.length === 0) {
+            return <h2 className="whitetext">Add the five heroes in your shop.</h2>
+
+        }
+        else {
+            return (<button className="clearbutton" onClick={this.clear}>Clear</button>)
+        }
+    }
+    predictButton() {
+        if (this.state.shopObjs.length === 5) {
+            let a = ""
+            for (let i = 0; i<5;i++) {
+                if (i === 4) {
+                    a = a + this.state.shopObjs[i].name 
+                }
+                else {
+                    a = a + this.state.shopObjs[i].name + ',' 
+                }   
+            }
+            return (<button className="clearbutton" >Predict</button>)
+        }
+        else {
+            return null
+        }
+    }
+
+
     render() {
         let filteredhlist = hlist.filter(
             (hero) =>
                 hero.name.toLowerCase().includes(this.state.search.toLowerCase())
         )
         const flist = filteredhlist.map(list =>
-            (<HeroMiniCard hero={list} key={list.id} test={this.test} benchStat={false} />)
+            (<HeroMiniCard hero={list} key={list.id} test={this.test} shopStat={false} />)
         )
-        //find the object in hlist that matches the elements in this.state.benchnames and push it to an array with that object
-        const benchlist = this.state.benchObjs.map(list =>
-            (<HeroMiniCard hero={list} key={list.id} test={this.test} benchStat={true} />)
+        //find the object in hlist that matches the elements in this.state.benchnames and push it to an array with that object\
+
+
+        let id = -1
+        function generate_id() {
+            id++
+            return (id)
+        }
+        let key = -1
+        function generate_key() {
+            key++
+            return (key)
+        }
+
+        let shoplist = this.state.shopObjs.map(list =>
+            (<HeroMiniCard hero={list} key={generate_key()} test={this.test} shopStat={true} id={generate_id()} />)
         )
         return (
-            <div>
-                <input type="text" placeholder="Search..." value={this.state.search} onChange={this.updateSearch} />
+            <div className="entireshop">
+                <input className="searchlist" type="text" placeholder="Search..." value={this.state.search} onChange={this.updateSearch} />
                 <div className="shoplist">
                     {flist}
-                    <div className="container2">
-                        <div className="bench">
-                            {benchlist}
-                        </div>
-                    </div>
                 </div>
+                <div className="shopandclear">
+                    <div className="shopheroes">
+                        {shoplist}
+                    </div>
+                    {this.clearButton()}
+                    {this.predictButton()}
+                    
+                </div>
+                
+                
+
             </div>
         )
     }

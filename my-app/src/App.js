@@ -1,6 +1,6 @@
 import React from 'react';
-import HeroCard from './components/HeroCard'
-import hlist from './data/Heroes'
+//import HeroCard from './components/HeroCard'
+//import hlist from './data/Heroes'
 
 import Shop from './components/Shop'
 
@@ -17,7 +17,9 @@ class App extends React.Component {
     this.setState({ search: event.target.value });
   }
   render() {
-    let filteredhlist = hlist.filter(
+    
+    /**
+     * let filteredhlist = hlist.filter(
       (hero) => {
         return hero.name.toLowerCase().includes(this.state.search.toLowerCase())
       }
@@ -25,6 +27,8 @@ class App extends React.Component {
     const list = filteredhlist.map(list => {
       return (<HeroCard hero={list} key={list.id} />)
     })
+     * 
+     */
     return (
       <div className="page">
         <div className="namecenter">
@@ -41,7 +45,7 @@ class App extends React.Component {
           </div>  
     */}
         </div>
-    
+     
       </div>
     )
   }

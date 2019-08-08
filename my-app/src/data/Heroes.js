@@ -221,7 +221,7 @@ const HeroList = [
 	}, 
 	{
 		id:  '20',
-		name:  'Nature�s Prophet',
+		name:  'Nature\'s Prophet',
 		type1: ' Elusive' ,
 		type2: ' Druid' ,
 		Health: ' 500/1000/2000' ,
